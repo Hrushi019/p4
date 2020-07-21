@@ -9,3 +9,10 @@ def sample1(request):
 
 def third(request):
     return render(request,"directory/third.html",context={'data':"King",'name':"Hrushikesh"})
+
+def fourth(request):
+    fruits=['apple','mango','banana','kiwi','orange','pineapple']
+    return render(request,"directory/fourth.html",{'fruits':fruits})
+
+def fifth(request):
+    return render(request,"directory/fifth.html",{'a':10,'b':19})
