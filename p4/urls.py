@@ -20,5 +20,6 @@ from p4 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.sample,name = "sample"),
-    path('home/',views.sample1,name = "sample1")
+    path('home/',views.sample1,name = "sample1"),
+    path('third/',views.third,name='third'),
 ]
