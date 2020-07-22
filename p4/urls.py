@@ -24,4 +24,10 @@ urlpatterns = [
     path('third/',views.third,name='third'),
     path('fourth/',views.fourth,name="fourth"),
     path('fifth/',views.fifth,name="fifth"),
+    path('url_data/<name>',views.urls_data,name = "urls_data"),
+    path('ab/<ab>',views.ab,name = "ab"),
+    path('ab/<a>/<b>',views.ab,name = "ab"),
+    path('abc/<a>/<b>/<c>',views.abc,name = "abc"),
+    path('great/<a>/<b>',views.great,name = "great"),
+    path('string/<name>',views.string19,name = "string19"),
 ]
